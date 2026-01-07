@@ -11,11 +11,20 @@ class _TrailState extends State<Trail> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: const Text("Trail Page"),
+      ),
       body: Center(
         child: Text(
           "Trail Page Screen",
           style: TextStyle(fontSize: 40),
         ),
+      ),
+      floatingActionButton: IconButton(
+        icon: Icon(Icons.arrow_back),
+        onPressed: () {
+          Navigator.pop(context);
+        },
       ),
     );
   }
