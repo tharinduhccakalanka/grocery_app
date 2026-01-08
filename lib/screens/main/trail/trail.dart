@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:grocery_app_1/screens/main/home/home.dart';
 
 class Trail extends StatefulWidget {
   const Trail({super.key});
@@ -15,15 +16,29 @@ class _TrailState extends State<Trail> {
         title: const Text("Trail Page"),
       ),
       body: Center(
-        child: Text(
-          "Trail Page Screen",
-          style: TextStyle(fontSize: 40),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: const [
+            Text(
+              "Trail Page Screen \n Coming Soon...!",
+              style: TextStyle(fontSize: 40),
+              textAlign: TextAlign.center,
+            ),
+            SizedBox(height: 20),
+            Text(
+              "Stay tuned!",
+              style: TextStyle(fontSize: 20),
+            ),
+          ],
         ),
       ),
       floatingActionButton: IconButton(
-        icon: Icon(Icons.arrow_back),
+        icon: const Icon(Icons.arrow_forward),
         onPressed: () {
-          Navigator.pop(context);
+          Navigator.pushReplacement(
+            context,
+            MaterialPageRoute(builder: (context) => const Home()),
+          );
         },
       ),
     );
