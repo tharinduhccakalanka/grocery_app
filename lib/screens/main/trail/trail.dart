@@ -26,7 +26,7 @@ class _TrailState extends State<Trail> {
             ),
             SizedBox(height: 20),
             Text(
-              "Stay tuned!",
+              "Stay tuned for updates, Watch out for exciting features coming your way!",
               style: TextStyle(fontSize: 20),
             ),
           ],
