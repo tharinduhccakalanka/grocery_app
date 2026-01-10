@@ -1,9 +1,10 @@
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart' as firebase;
 import 'package:grocery_app_1/firebase_options.dart';
 import 'package:grocery_app_1/providers/auth_provider.dart';
 import 'package:grocery_app_1/screens/auth/signup.dart';
 import 'package:provider/provider.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart' as riverpod;
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

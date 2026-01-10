@@ -42,18 +42,61 @@ class _TrailState extends State<Trail> {
               
               style: TextStyle(fontSize: 20),
             ),
-            SizedBox(height: 20),
+             SizedBox(height: 20),
             Text(
               "Stay tuned for updates, Watch out for exciting features coming your way!",
               
               style: TextStyle(fontSize: 20),
             ),
-            SizedBox(height: 20),
+             SizedBox(height: 20),
             Text(
               "Stay tuned for updates, Watch out for exciting features coming your way!",
               
               style: TextStyle(fontSize: 20),
             ),
+             SizedBox(height: 20),
+            Text(
+              "Stay tuned for updates, Watch out for exciting features coming your way!",
+              
+              style: TextStyle(fontSize: 20),
+            ),
+             SizedBox(height: 20),
+            Text(
+              "Stay tuned for updates, Watch out for exciting features coming your way!",
+              
+              style: TextStyle(fontSize: 20),
+            ),
+             SizedBox(height: 20),
+            Text(
+              "Stay tuned for updates, Watch out for exciting features coming your way!",
+              
+              style: TextStyle(fontSize: 20),
+            ),
+             SizedBox(height: 20),
+            Text(
+              "Stay tuned for updates, Watch out for exciting features coming your way!",
+              
+              style: TextStyle(fontSize: 20),
+            ),
+             SizedBox(height: 20),
+            Text(
+              "Stay tuned for updates, Watch out for exciting features coming your way!",
+              
+              style: TextStyle(fontSize: 20),
+            ),
+             SizedBox(height: 20),
+            Text(
+              "Stay tuned for updates, Watch out for exciting features coming your way!",
+              
+              style: TextStyle(fontSize: 20),
+            ),
+             SizedBox(height: 20),
+            Text(
+              "Stay tuned for updates, Watch out for exciting features coming your way!",
+              
+              style: TextStyle(fontSize: 20),
+            ),
+            
           ],
         ),
       ),

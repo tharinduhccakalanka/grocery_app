@@ -36,6 +36,7 @@ class _SplashState extends State<Splash> {
           ),
           const SizedBox(height: 72),
           FadeInUp(
+            duration: const Duration(milliseconds: 1500),
             child: const CustomText(
               "Shop Your Daily\nNecessary",
               fontSize: 30,

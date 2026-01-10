@@ -17,7 +17,7 @@ class _ProfileState extends State<Profile> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Center(
-        child: FadeInLeft(
+        child: FadeInUp(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
