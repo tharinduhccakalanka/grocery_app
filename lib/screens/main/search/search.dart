@@ -16,6 +16,7 @@ class _SearchState extends State<Search> {
         "Search",
         fontSize: 40,
       ),
+      
     );
   }
 }

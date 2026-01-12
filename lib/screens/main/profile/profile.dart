@@ -59,7 +59,7 @@ class _ProfileState extends State<Profile> {
               ),
               Padding(
                 padding: const EdgeInsets.only(bottom: 20),
-                child: CustomButton(text: "LogOut", onTap: () {}),
+                child: CustomButton(text: "Logout", onTap: () {}),
               ),
             ],
           ),
