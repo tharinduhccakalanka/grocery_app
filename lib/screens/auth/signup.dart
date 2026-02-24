@@ -60,7 +60,7 @@ class _SignupState extends State<Signup> {
                       color: Colors.white,
                       boxShadow: [
                         BoxShadow(
-                          color: AppColors.ash.withOpacity(.4),
+                          color: AppColors.ash.withValues(alpha: 0.4),
                           offset: const Offset(0, 2),
                           blurRadius: 10,
                         )
@@ -96,7 +96,7 @@ class _SignupState extends State<Signup> {
                       color: Colors.white,
                       boxShadow: [
                         BoxShadow(
-                          color: AppColors.ash.withOpacity(.3),
+                          color: AppColors.ash.withValues(alpha: 0.3),
                           offset: const Offset(0, 0),
                           blurRadius: 10,
                         ),
@@ -197,7 +197,7 @@ class CustomTextFeild extends StatelessWidget {
           color: Colors.white,
           boxShadow: [
             BoxShadow(
-              color: AppColors.ash.withOpacity(.4),
+              color: AppColors.ash.withValues(alpha: 0.4),
               offset: const Offset(0, 2),
               blurRadius: 10,
             )

@@ -19,7 +19,7 @@ class CartTile extends StatelessWidget {
           color: Colors.white,
           boxShadow: [
             BoxShadow(
-              color: AppColors.ash.withOpacity(.4),
+              color: AppColors.ash.withValues(alpha: 0.4),
               offset: const Offset(0, 2),
               blurRadius: 10,
             )

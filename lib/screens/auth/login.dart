@@ -177,7 +177,7 @@ class CustomTextField extends StatelessWidget {
         color: Colors.white,
         boxShadow: [
           BoxShadow(
-            color: AppColors.ash.withOpacity(.4),
+            color: AppColors.ash.withValues(alpha: 0.4),
             offset: const Offset(0, 2),
             blurRadius: 10,
           ),
@@ -224,13 +224,13 @@ class SocialButton extends StatelessWidget {
           color: Colors.white,
           boxShadow: [
             BoxShadow(
-              color: AppColors.ash.withOpacity(.4),
-              offset: const Offset(0, 2),
-              blurRadius: 10,
-            ),
-          ],
-        ),
-        child: SvgPicture.asset(path),
+            color: AppColors.ash.withValues(alpha: 0.4),
+            offset: const Offset(0, 2),
+            blurRadius: 10,
+          ),
+        ],
+      ),
+      child: SvgPicture.asset(path),
       ),
     );
   }
